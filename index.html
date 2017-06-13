@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=“utf-8” />
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/grid.css">
+        
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="css/ionicons.css">
+        <link rel="stylesheet" type="text/css" href="css/queries.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+	<body>
+		<div id="end">
+	</div>
+		
+	<div class='select-player row'>
+		<div class="col span-1-of-2">
+			<button class="btn btn-left waves-effect player-btn" id="one-player">
+				<i class="ion-person"></i>
+			</button>
+		</div>
+		<div class="col span-1-of-2">
+			<button class="btn btn-right waves-effect player-btn" id="two-player">
+				<i class="ion-person-stalker"></i>
+			</button>
+		</div>
+	</div>
+
+	<div class='select-symbol row'>
+		<div class="col span-1-of-2">
+			<button class="btn btn-left waves-effect symbol-btn" id='select-x'>X</button>
+		</div>
+		<div class="col span-1-of-2">
+			<button class="btn btn-right waves-effect symbol-btn" id='select-o'>O</button>
+		</div>
+	</div>
+
+	<div class="score">
+		<div class="col span-1-of-2 left">
+			<div class="shape-container">
+				<p>X</p>
+			</div>
+			<div class="score-box">
+				<p id="js--score-x">0</p>
+			</div>
+		</div>
+		<div class="col span-1-of-2 right">
+			<div class="shape-container">
+				<p>O</p>
+			</div>
+			<div class="score-box">
+				<p id="js--score-o">0</p>
+			</div>
+		</div>
+	</div>		
+
+	<div class="container">
+		<div class="row">
+			<div class="col span-1-of-3 box" id='cell-00'></div>
+			<div class="col span-1-of-3 box" id='cell-01'></div>
+			<div class="col span-1-of-3 box" id='cell-02'></div>
+		</div>
+		<div class="row">
+			<div class="col span-1-of-3 box" id='cell-10'></div>
+			<div class="col span-1-of-3 box" id='cell-11'></div>
+			<div class="col span-1-of-3 box" id='cell-12'></div>
+		</div>
+		<div class="row">
+			<div class="col span-1-of-3 box" id='cell-20'></div>
+			<div class="col span-1-of-3 box" id='cell-21'></div>
+			<div class="col span-1-of-3 box" id='cell-22'></div>
+		</div>
+	</div>
+
+	
+	
+
+	
+<!--
+	<div id='outer-prompt'>
+		<div id='inner-prompt-1' class='inner-prompts'>
+			<h1>Select number of players</h1>
+			<div id='btn-container'>
+				<button class='btn' id='one-player'>1 Player</button>
+				<button class='btn' id='two-player'>2 Players</button>
+			</div>
+		</div>
+
+		<div id='inner-prompt-2' class='inner-prompts'>
+			<h1>Select a shape</h1>
+			<div id='btn-container'>
+				<button class='btn' id='select-x'>X</button>
+				<button class='btn' id='select-o'>O</button>
+			</div>
+		</div>
+
+		<div id='inner-prompt-3' class='inner-prompts'>
+		</div>
+		
+	</div>
+	<div id='container'>
+
+	<table>
+		<tr id='row-1'>
+			<td id='cell-00'>
+			
+			</td>
+			<td id='cell-01'></td>
+			<td id='cell-02'></td>
+		</tr>
+		<tr id='row-2'>
+			<td id='cell-10'></td>
+			<td id='cell-11'></td>
+			<td id='cell-12'></td>
+		</tr>
+		<tr id='row-3'>
+			<td id='cell-20'></td>
+			<td id='cell-21'></td>
+			<td id='cell-22'></td>
+		</tr>
+	</table>
+	</div>
+-->
+
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+	</body>
+</html>
